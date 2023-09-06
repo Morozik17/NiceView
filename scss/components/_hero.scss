@@ -1,0 +1,64 @@
+section{
+    display: block;
+}
+
+.hero{
+    display: flex;
+    background-image: url(/images/house.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title{
+    width: 340px;
+color: var(--text-of-pages, #7E6D53);
+/* main title */
+font-family: Poppins;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.text{
+    color: var(--text-of-pages, #7E6D53);
+/* subtitle */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-left: 398px;
+margin-top: 32px;
+}
+
+.hero_button{
+    display: flex;
+width: 256px;
+height: 54px;
+padding: 14px 28px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+
+border-radius: 16px;
+background: var(--button-background, #FCFCFB);
+
+color: var(--button-text, #2D2A22);
+/* subtitle */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-left: 480px;
+}
