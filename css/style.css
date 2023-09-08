@@ -88,7 +88,7 @@ section {
 
 .hero {
   display: flex;
-  background-image: url(/images/house.jpg);
+  background-image: url(../images/house.jpg);
   background-repeat: no-repeat;
   background-position: center;
   width: 1280px;
@@ -255,7 +255,7 @@ section {
 }
 
 .infrastructure {
-  background-image: url(/images/image\ 30.jpg);
+  background-image: url(../images/image\ 30.jpg);
   width: 1144px;
   height: 486px;
   flex-shrink: 0;
