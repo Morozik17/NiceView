@@ -1,0 +1,47 @@
+.apartaments{
+    background: var(--button-background, #FCFCFB);
+    width: 1280px;
+height: 643px;
+flex-shrink: 0;
+margin-left: auto;
+margin-right: auto;
+}
+
+.title_apartaments{
+    color: var(--text-of-pages, #7E6D53);
+    /* title */
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 24px;
+    padding-left: 68px;
+}
+
+.button_apartaments{
+    display: flex;
+width: 264px;
+height: 58px;
+padding: 14px 28px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #7E6D53;
+border: inherit;
+
+flex-shrink: 0;
+color: #FCFCFB;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 14px;
+padding-bottom: 14px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 461px;
+}

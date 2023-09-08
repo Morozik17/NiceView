@@ -27,7 +27,6 @@ font-weight: 400;
 line-height: normal;
 margin-left: auto;
 margin-right: auto;
-
 }
 
 .text{
@@ -40,6 +39,8 @@ font-weight: 300;
 line-height: normal;
 margin-left: 398px;
 margin-top: 32px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .hero_button{
@@ -51,6 +52,9 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 flex-shrink: 0;
+border: inherit;
+opacity: 0.9;
+
 
 border-radius: 16px;
 background: var(--button-background, #FCFCFB);
@@ -63,4 +67,7 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 margin-left: 480px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 200px;
 }

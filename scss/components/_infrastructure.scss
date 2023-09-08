@@ -1,0 +1,71 @@
+.infrastructure{
+    background-image: url(/images/image\ 30.jpg);
+    width: 1144px;
+height: 486px;
+flex-shrink: 0;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
+margin-top: 160px;
+}
+
+.title_infrastructure{
+    position: absolute;
+    color: var(--text-of-pages, #7E6D53);
+/* title */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: -80px;
+}
+
+.card_infrastructure{
+    width: 331px;
+height: 470px;
+flex-shrink: 0;
+border-radius: 8px;
+opacity: 0.8;
+background: var(--button-background, #FCFCFB);
+margin-left: 645px;
+padding-top: 24px;
+}
+
+.title_card{
+    display: flex;
+width: 101px;
+height: 101px;
+padding: 15px 14px 14px 15px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 50px;
+border: 1px solid var(--button-text, #2D2A22);
+margin-left: 32px;
+
+flex-shrink: 0;
+color: var(--button-text, #2D2A22);
+text-align: center;
+/* on the map */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.paragraph_card{
+    position: relative;
+    display: inline;
+    width: 152px;
+height: 24px;
+flex-shrink: 0;
+color: var(--text-of-pages, #7E6D53);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 147px;
+}
