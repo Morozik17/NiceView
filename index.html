@@ -5,6 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>New View</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" />
   <link rel="stylesheet" href="./css/style.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,7 +44,7 @@
       <div class="container">
         <h1 class="title">Nice view</h1>
         <p class="text">For your comfortable life with your family</p>
-        <button type="button" class="hero_button">Contact us</button>
+        <button type="button" class="hero_button button-mobile" data-modal-open>Contact us</button>
       </div>
     </section>
 
@@ -75,20 +78,46 @@
       <button type="button" class="button_apartaments">Download catalog</button>
     </section>
 
-    
+
     <section class="infrastructure">
-    <h2 class="title_infrastructure">Infrastructure</h2>
-    <div class="card_infrastructure">
-      <ul>
-        <li><div class="box_card"><h3 class="title_card">2 minutes walk</h3><p class="paragraph_card">to the supermaket</p></div></li>
-        <li><div class="box_card"><h3 class="title_card">4 minutes walk</h3><p class="paragraph_card">to the coffee shop</p></div></li>
-        <li><div class="box_card"><h3 class="title_card">7 minutes walk</h3><p class="paragraph_card">to the  nearest park</p></div></li>
-      </ul>
-    </div>
+      <h2 class="title_infrastructure">Infrastructure</h2>
+      <div class="card_infrastructure">
+        <ul>
+          <li>
+            <div class="box_card">
+              <h3 class="title_card">2 minutes walk</h3>
+              <p class="paragraph_card">to the supermaket</p>
+            </div>
+          </li>
+          <li>
+            <div class="box_card">
+              <h3 class="title_card">4 minutes walk</h3>
+              <p class="paragraph_card">to the coffee shop</p>
+            </div>
+          </li>
+          <li>
+            <div class="box_card">
+              <h3 class="title_card">7 minutes walk</h3>
+              <p class="paragraph_card">to the nearest park</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section class="gallery">
-
+    <section class="galery">
+      <div class="container">
+        <h2 class="galery__title">Galery</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/image 27.jpg" width="556" height="589"></div>
+            <div class="swiper-slide"><img src="./images/image 28.jpg" width="556" height="589"></div>
+            <div class="swiper-slide"><img src="./images/image 29.jpg" width="556" height="589"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
     </section>
 
   </main>
@@ -107,8 +136,40 @@
       <li class="data_footer">ul. Chodkiewicza Karola 111, Chorzów </li>
       <li class="data_footer">deanna.curtis@example.com</li>
     </ul> -->
-    <p class="paragraph_footer">By using this website, you agree to the <span class="span_footer"> Terms of Service </span> and <span class="span_footer"> Privacy Policy</span></p>
+    <p class="paragraph_footer">By using this website, you agree to the <span class="span_footer"> Terms of Service
+      </span> and <span class="span_footer"> Privacy Policy</span></p>
   </footer>
+
+  <!-- modal -->
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <div class="blok-modal">
+        <div>
+          <div class="modal-visa">
+            <h2 class="modal-title">Leave your contacts and we will contact you</h2>
+            <button class="modal__btn-close">
+              <svg class="modal__icon-close" width="11" height="11">
+                <use href="./images/symbol-defs.svg#icon-close"></use>
+              </svg>
+            </button>
+            <div class="blok-form">
+
+
+              <button type="submit" class="modal__form-button" data-modal-close>
+                Contact us
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="./js/modal.js" type="module"></script>
+
+    <script src="./js/slider.js">
+
+    </script>
 </body>
 
 </html>
